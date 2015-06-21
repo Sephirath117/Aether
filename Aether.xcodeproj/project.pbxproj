@@ -9,14 +9,23 @@
 /* Begin PBXBuildFile section */
 		1C1EE3A31B363BE2004ECB62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1EE3A21B363BE2004ECB62 /* AppDelegate.swift */; };
 		1C1EE3A61B363BE2004ECB62 /* Aether.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1C1EE3A41B363BE2004ECB62 /* Aether.xcdatamodeld */; };
-		1C1EE3A81B363BE2004ECB62 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1EE3A71B363BE2004ECB62 /* ViewController.swift */; };
-		1C1EE3AB1B363BE2004ECB62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C1EE3A91B363BE2004ECB62 /* Main.storyboard */; };
 		1C1EE3AD1B363BE2004ECB62 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C1EE3AC1B363BE2004ECB62 /* Images.xcassets */; };
 		1C1EE3B01B363BE2004ECB62 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C1EE3AE1B363BE2004ECB62 /* LaunchScreen.xib */; };
 		1C1EE3BC1B363BE2004ECB62 /* AetherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1EE3BB1B363BE2004ECB62 /* AetherTests.swift */; };
 		1C1EE3C71B3642CC004ECB62 /* AetherIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C1EE3C51B3642CC004ECB62 /* AetherIcon.png */; };
 		1C1EE3C81B3642CC004ECB62 /* AetherIcon.psd in Resources */ = {isa = PBXBuildFile; fileRef = 1C1EE3C61B3642CC004ECB62 /* AetherIcon.psd */; };
-		9E4DB3011B36461E000D0C70 /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E4DB3001B36461E000D0C70 /* Firebase.framework */; };
+		1CDBABB18DC79841FB7D6C15 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3FBDFCFFA1D1F7C3CE21F88 /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		9E4DB3061B365C12000D0C70 /* QuestionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4DB3051B365C12000D0C70 /* QuestionCell.swift */; };
+		9E4DB30D1B3678F2000D0C70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E4DB30B1B3678F2000D0C70 /* Main.storyboard */; };
+		9E7B509E1B3682FD00B3226C /* plusbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E7B509D1B3682FD00B3226C /* plusbutton.png */; };
+		9E7B50A01B3687AE00B3226C /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7B509F1B3687AE00B3226C /* QuestionViewController.swift */; };
+		9E7B50A21B368ADB00B3226C /* Animator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7B50A11B368ADB00B3226C /* Animator.swift */; };
+		9E7B50A51B368AE200B3226C /* PullToRefreshExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7B50A31B368AE200B3226C /* PullToRefreshExtension.swift */; };
+		9E7B50A61B368AE200B3226C /* PullToRefreshView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7B50A41B368AE200B3226C /* PullToRefreshView.swift */; };
+		9E7B50AA1B36A75500B3226C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7B50A91B36A75500B3226C /* ViewController.swift */; };
+		9E7B50AC1B36AC4400B3226C /* MyQuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7B50AB1B36AC4400B3226C /* MyQuestionsViewController.swift */; };
+		9E7B50AE1B36B63F00B3226C /* QandAController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7B50AD1B36B63F00B3226C /* QandAController.swift */; };
+		9E7B50B01B36BEB300B3226C /* global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7B50AF1B36BEB300B3226C /* global.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,12 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C62A496E5BCFED9ED0F620E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Aether/Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		1C1EE39D1B363BE2004ECB62 /* Aether.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aether.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C1EE3A11B363BE2004ECB62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C1EE3A21B363BE2004ECB62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1C1EE3A51B363BE2004ECB62 /* Aether.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Aether.xcdatamodel; sourceTree = "<group>"; };
-		1C1EE3A71B363BE2004ECB62 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1C1EE3AA1B363BE2004ECB62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1C1EE3AC1B363BE2004ECB62 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1C1EE3AF1B363BE2004ECB62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		1C1EE3B51B363BE2004ECB62 /* AetherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AetherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,8 +51,20 @@
 		1C1EE3BB1B363BE2004ECB62 /* AetherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AetherTests.swift; sourceTree = "<group>"; };
 		1C1EE3C51B3642CC004ECB62 /* AetherIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AetherIcon.png; sourceTree = "<group>"; };
 		1C1EE3C61B3642CC004ECB62 /* AetherIcon.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = AetherIcon.psd; sourceTree = "<group>"; };
-		9E4DB3001B36461E000D0C70 /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Firebase.framework; sourceTree = "<group>"; };
+		391BAA2A94E8139F9A3F23AB /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Aether/Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		9E4DB3021B3646CE000D0C70 /* Aether-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Aether-Bridging-Header.h"; sourceTree = "<group>"; };
+		9E4DB3051B365C12000D0C70 /* QuestionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionCell.swift; sourceTree = "<group>"; };
+		9E4DB30B1B3678F2000D0C70 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		9E7B509D1B3682FD00B3226C /* plusbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plusbutton.png; sourceTree = "<group>"; };
+		9E7B509F1B3687AE00B3226C /* QuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		9E7B50A11B368ADB00B3226C /* Animator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Animator.swift; path = Pods/Refresher/Refresher/Animator.swift; sourceTree = "<group>"; };
+		9E7B50A31B368AE200B3226C /* PullToRefreshExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PullToRefreshExtension.swift; path = Pods/Refresher/Refresher/PullToRefreshExtension.swift; sourceTree = "<group>"; };
+		9E7B50A41B368AE200B3226C /* PullToRefreshView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PullToRefreshView.swift; path = Pods/Refresher/Refresher/PullToRefreshView.swift; sourceTree = "<group>"; };
+		9E7B50A91B36A75500B3226C /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9E7B50AB1B36AC4400B3226C /* MyQuestionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyQuestionsViewController.swift; sourceTree = "<group>"; };
+		9E7B50AD1B36B63F00B3226C /* QandAController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QandAController.swift; sourceTree = "<group>"; };
+		9E7B50AF1B36BEB300B3226C /* global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = global.swift; sourceTree = "<group>"; };
+		D3FBDFCFFA1D1F7C3CE21F88 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E4DB3011B36461E000D0C70 /* Firebase.framework in Frameworks */,
+				1CDBABB18DC79841FB7D6C15 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +92,8 @@
 				1C1EE39F1B363BE2004ECB62 /* Aether */,
 				1C1EE3B81B363BE2004ECB62 /* AetherTests */,
 				1C1EE39E1B363BE2004ECB62 /* Products */,
+				B58E0D12A06CEF0A042BDCB8 /* Pods */,
+				A056619BA1AA98A2970971BB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,11 +110,18 @@
 			isa = PBXGroup;
 			children = (
 				1C1EE3A21B363BE2004ECB62 /* AppDelegate.swift */,
-				1C1EE3A71B363BE2004ECB62 /* ViewController.swift */,
+				9E7B50AD1B36B63F00B3226C /* QandAController.swift */,
+				9E4DB3051B365C12000D0C70 /* QuestionCell.swift */,
+				9E4DB30B1B3678F2000D0C70 /* Main.storyboard */,
+				9E7B50A11B368ADB00B3226C /* Animator.swift */,
+				9E7B50A31B368AE200B3226C /* PullToRefreshExtension.swift */,
+				9E7B50A41B368AE200B3226C /* PullToRefreshView.swift */,
+				9E7B509F1B3687AE00B3226C /* QuestionViewController.swift */,
+				9E7B50A91B36A75500B3226C /* ViewController.swift */,
+				9E7B50AB1B36AC4400B3226C /* MyQuestionsViewController.swift */,
+				9E7B50AF1B36BEB300B3226C /* global.swift */,
 				1C1EE3C91B3642DB004ECB62 /* Assets */,
-				1C1EE3A91B363BE2004ECB62 /* Main.storyboard */,
 				1C1EE3AC1B363BE2004ECB62 /* Images.xcassets */,
-				9E4DB3001B36461E000D0C70 /* Firebase.framework */,
 				1C1EE3AE1B363BE2004ECB62 /* LaunchScreen.xib */,
 				1C1EE3A41B363BE2004ECB62 /* Aether.xcdatamodeld */,
 				1C1EE3A01B363BE2004ECB62 /* Supporting Files */,
@@ -129,10 +158,28 @@
 		1C1EE3C91B3642DB004ECB62 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				9E7B509D1B3682FD00B3226C /* plusbutton.png */,
 				1C1EE3C51B3642CC004ECB62 /* AetherIcon.png */,
 				1C1EE3C61B3642CC004ECB62 /* AetherIcon.psd */,
 			);
 			name = Assets;
+			sourceTree = "<group>";
+		};
+		A056619BA1AA98A2970971BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3FBDFCFFA1D1F7C3CE21F88 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B58E0D12A06CEF0A042BDCB8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C62A496E5BCFED9ED0F620E /* Pods.debug.xcconfig */,
+				391BAA2A94E8139F9A3F23AB /* Pods.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,9 +189,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1C1EE3BF1B363BE2004ECB62 /* Build configuration list for PBXNativeTarget "Aether" */;
 			buildPhases = (
+				DA597D78956C24C5216CB164 /* Check Pods Manifest.lock */,
 				1C1EE3991B363BE2004ECB62 /* Sources */,
 				1C1EE39A1B363BE2004ECB62 /* Frameworks */,
 				1C1EE39B1B363BE2004ECB62 /* Resources */,
+				4A4FC7AB958C543E6105E754 /* Copy Pods Resources */,
+				810DDADC284AD0506F426E9B /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -184,6 +234,7 @@
 				TargetAttributes = {
 					1C1EE39C1B363BE2004ECB62 = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 2YE3V77BY2;
 					};
 					1C1EE3B41B363BE2004ECB62 = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -215,11 +266,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C1EE3AB1B363BE2004ECB62 /* Main.storyboard in Resources */,
 				1C1EE3C81B3642CC004ECB62 /* AetherIcon.psd in Resources */,
+				9E4DB30D1B3678F2000D0C70 /* Main.storyboard in Resources */,
 				1C1EE3B01B363BE2004ECB62 /* LaunchScreen.xib in Resources */,
 				1C1EE3AD1B363BE2004ECB62 /* Images.xcassets in Resources */,
 				1C1EE3C71B3642CC004ECB62 /* AetherIcon.png in Resources */,
+				9E7B509E1B3682FD00B3226C /* plusbutton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,14 +284,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4A4FC7AB958C543E6105E754 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Aether/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		810DDADC284AD0506F426E9B /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Aether/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA597D78956C24C5216CB164 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1C1EE3991B363BE2004ECB62 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C1EE3A81B363BE2004ECB62 /* ViewController.swift in Sources */,
+				9E7B50A21B368ADB00B3226C /* Animator.swift in Sources */,
+				9E7B50A51B368AE200B3226C /* PullToRefreshExtension.swift in Sources */,
+				9E4DB3061B365C12000D0C70 /* QuestionCell.swift in Sources */,
+				9E7B50A01B3687AE00B3226C /* QuestionViewController.swift in Sources */,
+				9E7B50A61B368AE200B3226C /* PullToRefreshView.swift in Sources */,
 				1C1EE3A61B363BE2004ECB62 /* Aether.xcdatamodeld in Sources */,
+				9E7B50AC1B36AC4400B3226C /* MyQuestionsViewController.swift in Sources */,
+				9E7B50AA1B36A75500B3226C /* ViewController.swift in Sources */,
 				1C1EE3A31B363BE2004ECB62 /* AppDelegate.swift in Sources */,
+				9E7B50B01B36BEB300B3226C /* global.swift in Sources */,
+				9E7B50AE1B36B63F00B3226C /* QandAController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,14 +370,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1C1EE3A91B363BE2004ECB62 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1C1EE3AA1B363BE2004ECB62 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1C1EE3AE1B363BE2004ECB62 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -366,9 +466,12 @@
 		};
 		1C1EE3C01B363BE2004ECB62 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C62A496E5BCFED9ED0F620E /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Aether",
@@ -376,6 +479,7 @@
 				INFOPLIST_FILE = Aether/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Aether/Aether-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -383,9 +487,12 @@
 		};
 		1C1EE3C11B363BE2004ECB62 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 391BAA2A94E8139F9A3F23AB /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Aether",
@@ -393,6 +500,7 @@
 				INFOPLIST_FILE = Aether/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Aether/Aether-Bridging-Header.h";
 			};
 			name = Release;
