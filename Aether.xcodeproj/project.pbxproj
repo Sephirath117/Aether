@@ -16,6 +16,7 @@
 		1C1EE3BC1B363BE2004ECB62 /* AetherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1EE3BB1B363BE2004ECB62 /* AetherTests.swift */; };
 		1C1EE3C71B3642CC004ECB62 /* AetherIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C1EE3C51B3642CC004ECB62 /* AetherIcon.png */; };
 		1C1EE3C81B3642CC004ECB62 /* AetherIcon.psd in Resources */ = {isa = PBXBuildFile; fileRef = 1C1EE3C61B3642CC004ECB62 /* AetherIcon.psd */; };
+		9E4DB3011B36461E000D0C70 /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E4DB3001B36461E000D0C70 /* Firebase.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		1C1EE3BB1B363BE2004ECB62 /* AetherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AetherTests.swift; sourceTree = "<group>"; };
 		1C1EE3C51B3642CC004ECB62 /* AetherIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AetherIcon.png; sourceTree = "<group>"; };
 		1C1EE3C61B3642CC004ECB62 /* AetherIcon.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = AetherIcon.psd; sourceTree = "<group>"; };
+		9E4DB3001B36461E000D0C70 /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Firebase.framework; sourceTree = "<group>"; };
+		9E4DB3021B3646CE000D0C70 /* Aether-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Aether-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
