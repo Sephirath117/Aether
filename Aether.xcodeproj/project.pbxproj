@@ -14,6 +14,8 @@
 		1C1EE3AD1B363BE2004ECB62 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C1EE3AC1B363BE2004ECB62 /* Images.xcassets */; };
 		1C1EE3B01B363BE2004ECB62 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C1EE3AE1B363BE2004ECB62 /* LaunchScreen.xib */; };
 		1C1EE3BC1B363BE2004ECB62 /* AetherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1EE3BB1B363BE2004ECB62 /* AetherTests.swift */; };
+		1C1EE3C71B3642CC004ECB62 /* AetherIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C1EE3C51B3642CC004ECB62 /* AetherIcon.png */; };
+		1C1EE3C81B3642CC004ECB62 /* AetherIcon.psd in Resources */ = {isa = PBXBuildFile; fileRef = 1C1EE3C61B3642CC004ECB62 /* AetherIcon.psd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		1C1EE3B51B363BE2004ECB62 /* AetherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AetherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C1EE3BA1B363BE2004ECB62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C1EE3BB1B363BE2004ECB62 /* AetherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AetherTests.swift; sourceTree = "<group>"; };
+		1C1EE3C51B3642CC004ECB62 /* AetherIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AetherIcon.png; sourceTree = "<group>"; };
+		1C1EE3C61B3642CC004ECB62 /* AetherIcon.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = AetherIcon.psd; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,7 @@
 			children = (
 				1C1EE3A21B363BE2004ECB62 /* AppDelegate.swift */,
 				1C1EE3A71B363BE2004ECB62 /* ViewController.swift */,
+				1C1EE3C91B3642DB004ECB62 /* Assets */,
 				1C1EE3A91B363BE2004ECB62 /* Main.storyboard */,
 				1C1EE3AC1B363BE2004ECB62 /* Images.xcassets */,
 				1C1EE3AE1B363BE2004ECB62 /* LaunchScreen.xib */,
@@ -113,6 +118,15 @@
 				1C1EE3BA1B363BE2004ECB62 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1C1EE3C91B3642DB004ECB62 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				1C1EE3C51B3642CC004ECB62 /* AetherIcon.png */,
+				1C1EE3C61B3642CC004ECB62 /* AetherIcon.psd */,
+			);
+			name = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,8 +210,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C1EE3AB1B363BE2004ECB62 /* Main.storyboard in Resources */,
+				1C1EE3C81B3642CC004ECB62 /* AetherIcon.psd in Resources */,
 				1C1EE3B01B363BE2004ECB62 /* LaunchScreen.xib in Resources */,
 				1C1EE3AD1B363BE2004ECB62 /* Images.xcassets in Resources */,
+				1C1EE3C71B3642CC004ECB62 /* AetherIcon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
