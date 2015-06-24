@@ -112,10 +112,15 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         //swiftBlogs = [String]()
         
         var readRef = ref.childByAppendingPath("allQuestions")
-        
+        var count = 0
         readRef.observeEventType(.Value, withBlock: { snapshot in
             for child in snapshot.children.allObjects as! [FDataSnapshot] {
-                self.swiftBlogs.append(child.key)
+                if(count < (snapshot.children.allObjects as! [FDataSnapshot]).count){
+                    
+                    self.swiftBlogs.append(child.key as! String)
+                    //println(child.key)
+                    count++
+                }
             }
             
         })

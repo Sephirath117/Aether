@@ -44,6 +44,8 @@ class QandAController: UIViewController, UITableViewDataSource, UITableViewDeleg
             first = true
         }
     }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -69,7 +71,7 @@ class QandAController: UIViewController, UITableViewDataSource, UITableViewDeleg
         
         answers = mainInstance.answers
         println(answers)
-        //NSTimer.scheduledTimerWithTimeInterval(0.00001, target: self, selector: "reloadData", userInfo: nil, repeats: true)
+        NSTimer.scheduledTimerWithTimeInterval(0.00001, target: self, selector: "reloadData", userInfo: nil, repeats: true)
         
         // Do any additional setup after loading the view.
     }
@@ -89,15 +91,22 @@ class QandAController: UIViewController, UITableViewDataSource, UITableViewDeleg
         answers.removeAll(keepCapacity: false)
         
         var answerRef = ref.childByAppendingPath("allQuestions").childByAppendingPath(question).childByAppendingPath("answers")
-        
+        var count = 0
         answerRef.observeEventType(.Value, withBlock: { snapshot in
             for child in snapshot.children.allObjects as! [FDataSnapshot] {
-                self.answers.append(child.value as! String)
-                println(child.value)
+                if(count < (snapshot.children.allObjects as! [FDataSnapshot]).count){
+                    
+                    self.answers.append(child.value as! String)
+                    println(child.value)
+                    count++
+                }
+                
             }
             
             
         })
+        
+        //self.answers.removeAtIndex(0)
         //answerRef.removeAllObservers()
         
         self.refreshControl.endRefreshing()
@@ -129,6 +138,8 @@ class QandAController: UIViewController, UITableViewDataSource, UITableViewDeleg
         
         
     }
+    
+
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         return 1
