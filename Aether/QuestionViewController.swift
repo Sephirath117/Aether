@@ -19,6 +19,7 @@ class QuestionViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         submitButton.layer.borderColor = (UIColor.whiteColor()).CGColor
+        println()
         //var tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "DismissKeyboard")
         //view.addGestureRecognizer(tap)
         // Do any additional setup after loading the view.
